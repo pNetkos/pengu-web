@@ -1,0 +1,47 @@
+body {
+      background: #303e44;
+}
+
+.noSelect {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+}
+
+/*     font-family: 'Source Code Pro', monospace; */
+pre {
+    color: #ff3dd5;
+    font-family: monospace;
+    font-size: 15px;
+    text-shadow: 1.5px 1.5px #636363;
+}
+h2 {
+    font-family: Courier New, serif; 
+  color: #ffffff;
+  font-size: 15px;
+}
+
+h4 {
+    font-family: Courier New, serif; 
+  color: #ffffff;
+  font-size: 15px;
+}
+h3 {
+  font-size: 15px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00ff59;
+}
+
+i {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
