@@ -1,6 +1,12 @@
 body {
       background: #303e44;
-}
+    }
+    body {
+animation: colorchange 5s;
+-webkit-animation: colorchange 5s;
+-webkit-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+  }
 
 .noSelect {
   -webkit-user-select: none;  /* Chrome all / Safari all */
@@ -44,4 +50,32 @@ i {
   margin-right: 5px;
 }
 
+@keyframes colorchange
+{
+    0%   {background: #0f0f0f;}
+    20%  {background: #1c1b1b;}
+    40%  {background: #191919;}
+    60%  {background: #232323;}
+    80%  {background: #2d2d2d;}
+    100% {background: #1c1c1c;}
+}
 
+@keyframes colorchange
+{
+    0%   {background: #0f0f0f;}
+    20%  {background: #1c1b1b;}
+    40%  {background: #191919;}
+    60%  {background: #232323;}
+    80%  {background: #2d2d2d;}
+    100% {background: #1c1c1c;}
+}
+
+@-webkit-keyframes colorchange
+{
+    0%   {background: #0f0f0f;}
+    20%  {background: #1c1b1b;}
+    40%  {background: #191919;}
+    60%  {background: #232323;}
+    80%  {background: #2d2d2d;}
+    100% {background: #1c1c1c;}
+}
